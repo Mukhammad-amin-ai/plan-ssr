@@ -4460,10 +4460,6 @@ let setColor = ref('')
 let setPriceDisplay = ref('')
 let handleClass =ref(false)
 
-
-const boxRef = ref(null);
-
-
 // let getHomeId = () => {
 //     for (var i = 0; i <= data.value.length; i++) {
 //         if (!data.value[i]) continue;
@@ -4475,7 +4471,7 @@ const boxRef = ref(null);
 
 let mouseMoveHandle = (event)=>{
    left.value = event.clientX + 50
-   top.value = event.clientY / 50
+   top.value = event.clientY % 100
 }
 
 let mouseLiveHandle = ()=>{
