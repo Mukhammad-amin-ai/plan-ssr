@@ -4505,8 +4505,8 @@ let HomeCordinate = (id) => {
 
       }else if (catchedData.status === 'occupied'){
           stat.value = 'ЗАБРОНИРОВАН'
-          setColor.value = 'yellow'
-          setPriceDisplay.value = 'block'
+          setColor.value = '#f1c100'
+          setPriceDisplay.value = 'none'
       }else if (catchedData.status === "sold"){
           stat.value = "ПРОДАН"
           setColor.value = 'red'
