@@ -4475,7 +4475,7 @@ const boxRef = ref(null);
 
 let mouseMoveHandle = (event)=>{
    left.value = event.clientX + 50
-   top.value = event.clientY - 50
+   top.value = event.clientY / 50
 }
 
 let mouseLiveHandle = ()=>{
