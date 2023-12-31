@@ -4408,7 +4408,7 @@
                                   </defs>
                               </svg>
                           </div>
-                          <div id="t_1" ref="coordinates" class="info_block " :class="{ 'active': handleClass }" :style="{ top: top + '%', left: left + '%' }">
+                          <div id="t_1" ref="coordinates" class="info_block " :class="{ 'active': handleClass }" :style="{ top: top + 'px', left: left + 'px' }">
                               <div class="title">Участок {{ uchastok }}</div>
                               <div class="text-grey">{{ sotki }} соток</div>
                               <div class="text-green" :style="{ color: setColor }">{{ stat }}<br>
@@ -4475,7 +4475,7 @@ const boxRef = ref(null);
 
 let mouseMoveHandle = (event)=>{
    left.value = event.clientX + 50
-   top.value = event.clientY - 100
+   top.value = event.clientY - 50
 }
 
 let mouseLiveHandle = ()=>{
