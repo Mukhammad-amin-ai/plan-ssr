@@ -4472,6 +4472,7 @@ let handleClass =ref(false)
 let mouseMoveHandle = (event)=>{
    left.value = event.clientX + 10
    top.value = event.clientY +10 
+   
 }
 
 let mouseLiveHandle = ()=>{
