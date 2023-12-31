@@ -4408,7 +4408,7 @@
                                   </defs>
                               </svg>
                           </div>
-                          <div id="t_1" ref="coordinates" class="info_block " :class="{ 'active': handleClass }" :style="{ top: top + 'px', left: left + 'px' }">
+                          <div id="t_1" ref="coordinates" class="info_block " :class="{ 'active': handleClass }" :style="{ top: top + '%', left: left + '%' }">
                               <div class="title">Участок {{ uchastok }}</div>
                               <div class="text-grey">{{ sotki }} соток</div>
                               <div class="text-green" :style="{ color: setColor }">{{ stat }}<br>
